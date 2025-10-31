@@ -1,0 +1,2 @@
+datos\valores trasladados.txtdatos\datos encriptados.txtdatos\datos.txtdatos\practica.txtdatos\valores desencriptados.txtdatos\valores rotados.txtdatos\valores trasladados.txt
+funciones\app.pyfunciones\cifrado.pyfunciones\crear_array.pyfunciones\desempaquetar.pyfunciones\ecuacion.pyfunciones\graficar.pyfunciones\guardar.pyfunciones\rotacion.pyfunciones\traslacion.pyfunciones\__init__.pyfunciones\__pycache__
