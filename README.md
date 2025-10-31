@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jgarnigar/Proyecto-Algebra-Lineal">
+  <a href="https://github.com/jgarnigar/Proyecto-Algebra-Lineal/tree/master">
     <img src="https://img.shields.io/badge/GitHub-jgarnigar-181717?style=for-the-badge&logo=github" alt="GitHub Badge">
   </a>
 </p>
@@ -88,7 +88,7 @@ Utilizaremos **Python** 3.10 o superior, **Numpy** y **Matplotlib**. Para asegur
 
 🖥️ ***Clone el repositorio:***
 
-    git clone https://github.com/jgarnigar/Manejo_de_datos.git
+    git clone https://github.com/jgarnigar/Proyecto-Algebra-Lineal.git
 
 💻 ***Instale los requerimientos***
 
