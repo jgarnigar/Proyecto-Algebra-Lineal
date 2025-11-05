@@ -24,7 +24,7 @@ create = crear_array()
 inversa = cir.inversa(matriz_codificacion)
 
 
-valores_x, valores_y = aplicacion.abrir_document(matriz_codificacion, "datos/datos encriptados.txt", "decifrar")
+valores_x, valores_y = aplicacion.abrir_document(matriz_codificacion, "datos/datos encriptados.txt", "descifrar")
 desempaquetar_x, desempaquetar_y = desempaquetador.desempaquetar(valores_x, valores_y)
 
 valores_rotados_x, valores_rotados_y = rotar.rotar_matriz(desempaquetar_x, desempaquetar_y)

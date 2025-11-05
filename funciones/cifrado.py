@@ -17,7 +17,7 @@ class Cifrado():
 
         return matriz_cifrada
     
-    def decifrar(self, matriz_codificacion, matriz_resolver):
+    def descifrar(self, matriz_codificacion, matriz_resolver):
         self.matriz_codificacion = matriz_codificacion
         self.matriz_resolver = matriz_resolver
 

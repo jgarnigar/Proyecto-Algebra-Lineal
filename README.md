@@ -90,17 +90,19 @@ Utilizaremos **Python** 3.10 o superior, **Numpy** y **Matplotlib**. Para asegur
 
     git clone https://github.com/jgarnigar/Proyecto-Algebra-Lineal.git
 
-💻 ***Instale los requerimientos***
-
-    pip install -r requirements.txt
 
 ⌨️ ***Crear el entorno virtual***
 ```bash
 python -m venv venv
 source venv/bin/activate     # Para Linux/Mac
 venv\Scripts\activate        # Para Windows
-pip install -r requirements.txt
 ```
+
+💻 ***Instale los requerimientos***
+
+    pip install -r requirements.txt
+
+    
 🚀 ***Ejecución del programa***
 
 Una vez tengamos el repositorio clonado y todos los requisitos instalados, ejecute este código desde la carpeta principal:
@@ -330,7 +332,7 @@ guardar_datos.save(valores_trasladados_x,valores_trasladados_y,"datos/valores tr
 ## 👨‍💻 Autor 
 
 <p align="center">
-    Hecho con ☕ (quizá demasiada)!
+    Hecho con ☕ (quizá demasiado)! 
     <br>
     <i><b>Junior Eduardo Garniga Rojas</b></i></a>  👾
 

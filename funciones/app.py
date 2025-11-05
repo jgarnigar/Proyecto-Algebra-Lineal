@@ -30,8 +30,8 @@ class App():
                 if self.condicional == "cifrar":
                     resultado = cir.cifrar(array, matriz_original)
 
-                elif self.condicional == "decifrar":
-                    resultado = cir.decifrar(matriz_original, array)
+                elif self.condicional == "descifrar":
+                    resultado = cir.descifrar(matriz_original, array)
         
                 valores_x = create.valores_x(resultado)
                 valores_y = create.valores_y(resultado)
