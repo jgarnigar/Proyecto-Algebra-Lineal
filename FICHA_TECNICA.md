@@ -18,14 +18,14 @@
   </a>
 </p>
 
-## 🔍Descripción
+## 🔍**Descripción**
 - Los datos fueron encriptados multiplicando una matriz 6x6 por una matriz 6x1. El resultado es una matriz 6x1 con los datos encriptados. Estos datos nuevos ocultan una imagen. La nueva matriz 6x1 nos da los valores (x,y).
 
 - Para desencriptar estos datos, obtendremos la matriz inversa de la matriz 6x6 y multiplicaremos por la 6x1 con los datos encriptados.
 
 - Finalmente usaremos matplotlib con el fin de visualizar los datos desencriptados.
 
-## ⚙️ Instalación y requisitos.
+## ⚙️ **Instalación y requisitos.**
 Utilizaremos **Python** 3.10 o superior, **Numpy** y **Matplotlib**. Para asegurarnos que todo funcione, por favor cree un entorno virtual.
 
 ***Instalar Python 3.10 o superior***
@@ -58,11 +58,11 @@ Una vez tengamos el repositorio clonado y todos los requisitos instalados, ejecu
 > ⚠️ **Nota:** asegúrese de ejecutar este comando desde la carpeta raíz del proyecto!
 
 
-## 🎯 Objetivo 
+## 🎯 **Objetivo**
 
 - El objetivo es crear un algoritmo a través de Python y Numpy para poder desencriptar estos datos de forma automatizada y por último mostrar estos datos con Matplotlib.
 
-## 🗂️ Estructura
+## 🗂️ **Estructura**
 
 📂 Proyecto Álgebra Lineal
 
@@ -78,7 +78,7 @@ Una vez tengamos el repositorio clonado y todos los requisitos instalados, ejecu
 
 
 
-## 🧠 Operaciones matemáticas
+## 🧠 **Operaciones matemáticas**
 Estos son los temas utilizados para resolver el proyecto.
 
 🔹 Multiplicación de matrices.
@@ -93,7 +93,7 @@ Estos son los temas utilizados para resolver el proyecto.
 
 🔹 Producto vectorial.
 
-## 🧠 Métodos de Numpy.
+## 🧠 **Métodos de Numpy.**
 Explicaremos brevemente los métodos utilizados en Numpy para poder trabajar con nuestas clases.
 
 
@@ -118,7 +118,7 @@ Explicaremos brevemente los métodos utilizados en Numpy para poder trabajar con
 - Si el array es un 1x6, usamos np.reshape(-1, 1): -1 significa que toma el máximo valor que en este caso es 6 que serán las filas, y : 1, que será el número total de columnas. Ahora el array es de 6x1.
 
 
-## 💾 Datos
+## 💾 **Datos**
 *Todos los datos fueron almacenados dentro de la carpeta datos*.
 
 📦 Proyecto-algebra-linea
@@ -132,7 +132,7 @@ Explicaremos brevemente los métodos utilizados en Numpy para poder trabajar con
 ┃ ┣ valores trasladados.txt
 
 
-## 🧮 Ecuaciones
+## 🧮 **Ecuaciones**
 
 Antes de empezar a desencriptar los datos, tenemos que tener todos los datos de nuestra matriz 6x6 la cual usaremos para resolver el proyecto. 
 
@@ -153,7 +153,7 @@ A =
 
 ```
 
-### 1️⃣ Primera Ecuación
+### 1️⃣ **Primera Ecuación**
 
 ```bash
 
@@ -212,7 +212,7 @@ matriz = ecuacion.resolver(primer_termino, segundo_termino)
 
 💡 Para las incógnitas 𝑘, 𝑚, 𝑛, 𝑝, 𝑟,𝑡, 𝑤, 𝑧 debe resolver las siguientes operaciones entre vectores:
 
-### 2️⃣ Segunda Ecuación
+### 2️⃣ **Segunda Ecuación**
 
 *Se tienen los vectores 𝑈⃗ = (3, 6, 7) y 𝑉⃗ = (𝑘, 𝑚, 𝑛). El resultado de operar 2𝑈⃗ × 3𝑉⃗ es igual a 612𝑖̂+ 156𝑗̂− 396𝑘̂ y el producto 𝑈⃗ ∙ 𝑉⃗ = 58*
 
@@ -299,7 +299,7 @@ $$
 
 ----------------------------------------------------------------------------
 
-### 3️⃣ Tercera Ecuación
+### 3️⃣ **Tercera Ecuación**
 
 Se tienen los vectores 𝑈⃗ = (6, 𝑝, 𝑟) y 𝑉⃗ = (𝑡, 8, 9). El resultado de operar 3𝑈⃗ − 10𝑉⃗ es igual a −42𝑖̂− 68𝑗̂− 126𝑘̂
 
@@ -347,7 +347,7 @@ $$
 -----------------------------------------
 
 
-### 4️⃣ Cuarta Ecuación
+### 4️⃣ **Cuarta Ecuación**
 
 Se tienen los vectores: 
 
@@ -436,7 +436,7 @@ $$
 
 
 ------------------------------------------------------------------
-### ✅ Resultado de las ecuaciones.
+### ✅ **Resultado de las ecuaciones.**
 
 En total tenemos las siguientes variables encontradas con la ecuación también realizada anteriormente en la clase Ecuación.
 
@@ -454,11 +454,11 @@ Al final la matriz para codificar los vectores es:
     [ 4,  6,  2, -4,  9, -1]
 
 
-## ⚙️ Clases 
+## ⚙️ **Clases **
 
 *Ahora que ya resolvimos nuestras ecauciones y obtuvimos nuestra matriz completa, ya podemos comenzar a programar para poder desencriptar nuestros datos*
 
-### 💾 Librerías 
+### 💾 **Librerías **
 
 *Primero importamos las librerías que usaremos a lo largo de nuestro proyecto*
 
@@ -469,11 +469,11 @@ import matplotlib.pyplot as plt
 
 ```
 
-### Cifrado()
+### **Cifrado()**
 
 *Creamos nuestra clase Cifrado la cual Cifra, descifra datos y podemos obtener una matriz inversa para depurar.*
 
-### Funcionamiento de la clase Cifrado()
+### **Funcionamiento de la clase Cifrado()**
 
 
 - ⚡ Primero tenemos la función ***`inversa()`*** la cual nos devuelve la inversa de la matriz ingresada.
@@ -515,11 +515,11 @@ class Cifrado():
 
 ```
 
-### Crear_Array()
+### **Crear_Array()**
 
 *La clase `crear_array()` fue creada con el objetivo de obtener un arreglo con valores alternados de `(x,y)` en un formato (x1, y1, x2, y2...) y los separará en dos arreglos independientes con las cordenadas `(x)` y `(y)`*.
 
-### Funcionamiento de la clase Crear_Array()
+### **Funcionamiento de la clase Crear_Array()**
 
 **Método valores_x()**
 
@@ -565,11 +565,11 @@ class crear_array():
 
 ```
 
-### Ecuacion()
+### **Ecuacion()**
 
 *Creamos una clase llamada ecuación con la finalidad de resolver la ecuación $10x10$ brindada en las instrucciones del proyecto.*
 
-### Funcionamiento de la clase Ecuacion()
+### **Funcionamiento de la clase Ecuacion()**
 
 
 - La clase nos pide los valores separados del primero término y segundo término de la ecuación.
@@ -592,7 +592,7 @@ class Ecuacion():
 
 ```
 
-### Desempaquetar()
+### **Desempaquetar()**
 
 *Esta clase se encarga de transformar los arreglos de coordenadas (x, y) en listas unidimensionales. Debido a que la clase `App()` devuelve los datos en un formato anidado como:*
 
@@ -606,7 +606,7 @@ class Ecuacion():
 [x1, x2, x3]   y  [y1, y2, y3]
 ```
 
-### Funcionamiento de la clase Desempaquetar()
+### **Funcionamiento de la clase Desempaquetar()**
 
 
 1️⃣ Pedimos los arreglos separados de `(x, y)`.
@@ -642,7 +642,7 @@ class Desempaquetar_Array():
 
 ```
 
-### Rotacion()
+### **Rotacion()**
 
 *La clase Rotacion aplica una transformación geométrica de rotación a un conjunto de puntos en el plano cartesiano.*
 
@@ -675,7 +675,7 @@ y
 \end{bmatrix}
 $$
 
-### Funcionamiento de la clase Rotacion()
+### **Funcionamiento de la clase Rotacion()**
 
 
 1️⃣ Pedimos los valores de `(x, y)` es arreglos separados.
@@ -718,7 +718,7 @@ class Rotacion():
 
 ```
 
-### Traslacion()
+### **Traslacion()**
 
 La clase Traslacion aplica una transformación geométrica de traslación a un conjunto de puntos en el plano cartesiano.
 
@@ -754,7 +754,7 @@ y \\
 \end{bmatrix}
 $$
 
-### Funcionamiento de la clase Traslacion()
+### **Funcionamiento de la clase Traslacion()**
 
 
 1️⃣ Pedimos los valores de `(x, y)` y `(a, b)` es arreglos separados.
@@ -800,7 +800,7 @@ class Traslacion():
 
 ```
 
-### GuardarDatos()
+### **GuardarDatos()**
 
 *Esta clase permite almacenar las coordenadas generadas durante el proceso (rotación, traslación, etc.) en un archivo de texto externo. *
 
@@ -812,7 +812,7 @@ class Traslacion():
 (x3, y3)
 ```
 
-### Funcionamiento de la clase GuardarDatos()
+### **Funcionamiento de la clase GuardarDatos()**
 
 
 1️⃣ Recibe los arreglos `(x, y)` y el nombre del archivo.
@@ -839,14 +839,14 @@ class GuardarDatos():
 
 ```
 
-### App()
+### **App()**
 
 *La clase **`App`** se encarga de abrir un archivo que contiene datos encriptados o sin encriptar, procesarlos y ejecutar la lógica correspondiente para **cifrar** o **descifrar** los valores.*
 
 
 *Los datos leídos se convierten en una matriz y posteriormente se desempaquetan para obtener los valores en los ejes `(x,y)`*
 
-### Funcionamiento de la clase App()
+### **Funcionamiento de la clase App()**
 
 
 1️⃣ Lee un archivo línea por línea.
@@ -899,11 +899,11 @@ class App():
 
 ```
 
-### Graficar()
+### **Graficar()**
 
 *Esta clase nos permite graficar todos los puntos `(x, y)` con los datos Desencriptados, Rotados y Trasladados*
 
-### Funcionamiento de la clase Graficar()
+### **Funcionamiento de la clase Graficar()**
 
 1️⃣ Obtiene dos arreglos con los valores `(x, y)`.
 
@@ -932,7 +932,7 @@ class Graficar():
 
 ```
 
-## Instancias
+## **Instancias**
 
 *Inicializamos nuestras instancias de clases:*
 
@@ -949,4 +949,177 @@ class Graficar():
 
 ```
 
+## **Comprobación de Datos**
 
+### **Matriz Inversa**
+
+*Buscamos comprobar que la clase Cifrado con el método inversa funciona para poder obtener la inversa de nuestra matriz*
+
+`Input:`
+
+```bash
+
+inversa = cir.inversa(matriz_codificacion)
+print(f"La matriz inversa es: \n{inversa}")
+```
+
+`Output: `
+
+```bash
+
+La matriz inversa es: 
+[[-0.13562749 -0.03955583  0.16534674  0.097423    0.19435366 -0.08729311]
+ [ 0.02119736 -0.18428661  0.04575739 -0.04399749  0.08185104  0.26227216]
+ [ 0.28413995  0.12090928 -0.33697884 -0.11187932 -0.30448355  0.15573015]
+ [ 0.03036874 -0.074251    0.03071444  0.03456945  0.01842657  0.00880997]
+ [ 0.01988791  0.10211607 -0.03490467  0.02074167 -0.08727739 -0.06304735]
+ [ 0.21047035  0.19392416 -0.17502619 -0.04965431 -0.19964907 -0.06674523]]
+
+```
+
+### **Desencriptar datos**
+
+Multiplicaremos nuestra matriz inversa por la matriz con los datos codificados y de esta manera poder descifrarlos. Así podemos corroborarque los datos son correctos y que nuestra función sí nos brinda los resultados correctos.
+
+La matriz con los datos encriptados es:
+
+```bash
+[230.3]
+[263.5]
+[238.8]
+[814.8]
+[-100]
+[432.7]
+```
+
+`Input:`
+
+```bash
+#nuestra matriz de 6x1 y nuestra matriz de 6x6, usamos reshape para cambiar su dimensión a 6x1
+dato_encriptado = np.array([230.3, 263.5, 238.8, 814.8, -100, 432.7]).reshape(-1, 1)
+#guardamos los datos usando la clase decifrar.
+datos_desencriptados = cir.decifrar(matriz_codificacion, dato_encriptado)
+#mostramos los datos por pantalla
+print(datos_desencriptados)
+```
+
+`Output: `
+
+```bash
+[[20. ]
+ [36.7]
+ [23.5]
+ [24.9]
+ [21.5]
+ [ 8.4]]
+
+```
+
+
+### **Rotación de datos**
+
+Ya comprobamos que los datos son desencriptados correctamente usando nuestras clases y métodos. Ahora comprobaremos que los datos pueden ser rotados.
+
+Teniendo nuestra variable datos_desencriptados, usaremos la clase Rotacion para rotar los datos brindados y darnos los nuevos resultados.
+
+La clase Rotacion() nos pide datos_x, datos_y. Esto fue realizado para poder realizar nuestra gráfica con matplotlib. Tenemos la clase crear_array() la cual nos ayuda a obtener los valores x, y para utilizar este método.
+
+`Input: `
+
+```bash
+
+#Primero obtenemos los resultados (x, y), así se los podemos pasar a nuestra clase.
+valor_prueba_x = create.valores_x(datos_desencriptados)
+#mostramos los datos
+print(f"Los valores de x son : {valor_prueba_x}")
+#obtenemos los resultados para y
+valor_prueba_y = create.valores_y(datos_desencriptados)
+#mostramos los datos de y
+print(f"Los valores de y son: {valor_prueba_y}")
+
+#estos datos aún no están rotados, la rotación será ahora con la clase Rotacion()
+
+```
+
+`Output: `
+
+```bash
+
+Los valores de x son : [array([20.]), array([23.5]), array([21.5])]
+Los valores de y son: [array([36.7]), array([24.9]), array([8.4])]
+
+
+```
+
+
+⚠️ Podemos notar que los valores de (x,y) están en arrays anidados, por lo cual será necesario desempaquetarlos a través de la clase Desempaquetar_Array(), así de esta manera por fin podremos rotar los datos.
+
+`Input: `
+
+```bash
+
+valor_prueba_desempaquetar_x, valor_prueba_desempaquetar_y = desempaquetador.desempaquetar(valor_prueba_x, valor_prueba_y)
+#mostramos los valores
+print(f"Los valores de x son: {valor_prueba_desempaquetar_x}")
+print(f"Los valores de y son: {valor_prueba_desempaquetar_y}")
+
+#Ahora ya podemos usar la clase Rotacion()
+
+valor_prueba_rotados_x, valor_prueba_rotados_y = rotar.rotar_matriz(valor_prueba_desempaquetar_x, valor_prueba_desempaquetar_y)
+#Mostramos los valores
+
+print(f"Los valores x rotados son: {valor_prueba_rotados_x}")
+print(f"Los valores y rotados son: {valor_prueba_rotados_y}")
+
+```
+
+`Output: `
+
+```bash
+
+Los valores de x son: [np.float64(20.000000000000007), np.float64(23.499999999999986), np.float64(21.50000000000001)]
+
+Los valores de y son: [np.float64(36.69999999999996), np.float64(24.900000000000002), np.float64(8.400000000000023)]
+
+Los valores x rotados son: [np.float64(-40.09295449327722), np.float64(-34.22396820942889), np.float64(-21.142492757477793)]
+
+Los valores y rotados son: [np.float64(-11.808683245815308), np.float64(-0.9899494936611762), np.float64(9.263098833543765)]
+
+```
+
+Como pudimos comprobar, los valores fueron rotados exitosamente por lo que podemos comprobar que la clase Rotacion() funciona sin ningún problema, ahora pasaremos a trasaladar los datos.
+
+### **Traslación**
+
+Ahora buscaremos comprobar que la clase `Traslacion()` funciona pasándole los datos anteriomente brindados.
+
+La clase `Traslacion()` recibe los datos de `(x,y)` y `(a,b)`. Donde `(a,b)` son las distancias de traslación para los ejes `(x,y)`.
+
+`Input: `
+
+```bash
+
+#usaremos los datos anteriomente rotados para obtener los datos finales.
+valor_prueba_transladado_x, valor_prueba_trasladado_y = traslacion.trasladar_matriz(valor_prueba_rotados_x, valor_prueba_rotados_y, 20, 30)
+
+#pasamos los valores (a,b) como (20,30)
+#mostramos los datos.
+
+print(f"Los valores trasladados para x son: {valor_prueba_transladado_x}")
+print(f"Los valores trasladados para y son: {valor_prueba_trasladado_y}")
+
+```
+
+`Output: `
+
+```bash
+
+Los valores trasladados para x son: [np.float64(-20.09295449327722), np.float64(-14.22396820942889), np.float64(-1.1424927574777932)]
+
+Los valores trasladados para y son: [np.float64(18.19131675418469), np.float64(29.010050506338825), np.float64(39.263098833543765)]
+
+```
+
+Con estas comprobaciones logramos obtener todos los datos y asegurarnos que las clases y métodos funcionan para ahora poder pasar un archivo.txt con todos los datos y así poder desencriptar los datos de forma automatizada.
+
+Mostraremos los datos para corroborar las gráficas
