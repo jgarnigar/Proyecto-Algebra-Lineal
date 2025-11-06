@@ -1374,6 +1374,84 @@ guardar_datos.save(valores_trasladados_x,valores_trasladados_y,"datos\valores tr
 
 <br>
 
+## 🗂️ Estructura completa 
+
+📦 Proyecto-algebra-linea
+
+├─ 📁datos/
+
+│   ├─ 📄 valores_trasladados.txt
+
+│   ├─ 📄 datos_encriptados.txt
+
+│   ├─ 📄 datos.txt
+
+│   ├─ 📄 practica.txt
+
+│   ├─ 📄 valores_desencriptados.txt
+
+│   └─ 📄 valores_rotados.txt
+
+│
+
+├─ 📁funciones/
+
+│   ├─ 📄 __init__.py
+
+│   ├─ 📄 app.py
+
+│   ├─ 📄 cifrado.py
+
+│   ├─ 📄 crear_array.py
+
+│   ├─ 📄 desempaquetar.py
+
+│   ├─ 📄 ecuacion.py
+
+│   ├─ 📄 graficar.py
+
+│   ├─ 📄 guardar.py
+
+│   ├─ 📄 rotacion.py
+
+│   └─ 📄 traslacion.py
+
+│
+
+├─ 📁imagenes
+
+│   ├─ 🖼️ datos_desencriptados_test.png
+
+│   ├─ 🖼️ datos_desencriptados.png
+
+│   ├─ 🖼️ datos_rotados_test.png
+
+│   ├─ 🖼️ datos_rotados.png
+
+│   ├─ 🖼️ datos_trasladados_test.png
+
+│   └─ 🖼️ datos_trasladados.png
+
+│
+
+├─ 📄 .gitignore
+
+├─ 📄 FICHA_TECNICA.md
+
+├─ 📄 INSTRUCCIONES_PROYECTO.pdf
+
+├─ 📄 PROYECTO_ALGEBRA_LINEA.pdf
+
+├─ 📄 README.md
+
+├─ 📄 clases.py
+
+├─ 📄 ecuacion.py
+
+├─ 📄 main.py
+
+└─ 📄 requirements.txt
+
 ## 🧰 Tecnologías usadas
 
 

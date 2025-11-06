@@ -306,17 +306,24 @@ guardar_datos.save(valores_trasladados_x,valores_trasladados_y,"datos/valores tr
 
 │
 
+├─ 📄 .gitignore
+
+├─ 📄 FICHA_TECNICA.md
+
+├─ 📄 INSTRUCCIONES_PROYECTO.pdf
+
+├─ 📄 PROYECTO_ALGEBRA_LINEA.pdf
+
+├─ 📄 README.md
+
 ├─ 📄 clases.py
 
 ├─ 📄 ecuacion.py
 
-├─ 📄 Instrucciones_proyecto_algebra_lineal.pdf
+├─ 📄 main.py
 
-├─ 📄 README.md
+└─ 📄 requirements.txt
 
-├─ 📄 requirements.txt
-
-└─ 📄 FICHA_TECNICA.md
 
 ## 🧰 Tecnologías usadas
 
