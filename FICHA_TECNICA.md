@@ -802,7 +802,7 @@ class Traslacion():
 
 ### **GuardarDatos()**
 
-*Esta clase permite almacenar las coordenadas generadas durante el proceso (rotación, traslación, etc.) en un archivo de texto externo. *
+*Esta clase permite almacenar las coordenadas generadas durante el proceso (rotación, traslación, etc.) en un archivo de texto externo.*
 
 *Los valores se guardan en formato de pares ordenados:*
 
@@ -1141,7 +1141,9 @@ graficar.graficadora(valor_prueba_x, valor_prueba_y)
 `Output: `
 
 
-![Datos Desencriptados](imagenes\datos_desencriptados_test.png)
+<p align="center">
+    <img src="imagenes\datos_desencriptados_test.png">
+</p>
 
 ### > **Datos Rotados**
 
@@ -1156,7 +1158,10 @@ graficar.graficadora(valor_prueba_rotados_x, valor_prueba_rotados_y)
 
 `Output: `
 
-![Datos Rotados](imagenes\datos_rotados_test.png)
+<p align="center">
+    <img src="imagenes\datos_rotados_test.png">
+</p>
+
 
 ### > **Datos Trasladados**
 
@@ -1171,7 +1176,10 @@ graficar.graficadora(valor_prueba_transladado_x, valor_prueba_trasladado_y)
 
 `Output: `
 
-![Datos Trasladados](imagenes\datos_trasladados_test.png)
+<p align="center">
+    <img src="imagenes\datos_trasladados_test.png">
+</p>
+
 
 
 ## > **Desencriptar**
@@ -1213,7 +1221,9 @@ graficar.graficadora(desempaquetar_x, desempaquetar_y)
 
 `Output: `
 
-![Datos Desencriptados](imagenes\datos_desencriptados.png)
+<p align="center">
+    <img src="imagenes\datos_desencriptados.png">
+</p>
 
 ### > *Gráfico Matriz Rotación*
 
@@ -1228,7 +1238,10 @@ graficar.graficadora(valores_rotados_x, valores_rotados_y)
 
 `Output: `
 
-![Datos Rotados](imagenes\datos_rotados.png)
+<p align="center">
+    <img src="imagenes\datos_rotados.png">
+</p>
+
 
 ### > *Gráfico Matriz Rotación y Traslado*
 
@@ -1242,7 +1255,10 @@ graficar.graficadora(valores_trasladados_x, valores_trasladados_y)
 
 `Output: `
 
-![Datos Trasladados](imagenes\datos_trasladados.png)
+<p align="center">
+    <img src="imagenes\datos_trasladados.png">
+</p>
+
 
 ## > *Guardar Datos*
 
