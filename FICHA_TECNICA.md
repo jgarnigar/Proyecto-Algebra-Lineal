@@ -454,11 +454,11 @@ Al final la matriz para codificar los vectores es:
     [ 4,  6,  2, -4,  9, -1]
 
 
-## ⚙️ **Clases **
+## ⚙️ **Clases**
 
 *Ahora que ya resolvimos nuestras ecauciones y obtuvimos nuestra matriz completa, ya podemos comenzar a programar para poder desencriptar nuestros datos*
 
-### 💾 **Librerías **
+### 💾 **Librerías**
 
 *Primero importamos las librerías que usaremos a lo largo de nuestro proyecto*
 
@@ -998,7 +998,7 @@ La matriz con los datos encriptados es:
 #nuestra matriz de 6x1 y nuestra matriz de 6x6, usamos reshape para cambiar su dimensión a 6x1
 dato_encriptado = np.array([230.3, 263.5, 238.8, 814.8, -100, 432.7]).reshape(-1, 1)
 #guardamos los datos usando la clase decifrar.
-datos_desencriptados = cir.decifrar(matriz_codificacion, dato_encriptado)
+datos_desencriptados = cir.descifrar(matriz_codificacion, dato_encriptado)
 #mostramos los datos por pantalla
 print(datos_desencriptados)
 ```
@@ -1123,3 +1123,154 @@ Los valores trasladados para y son: [np.float64(18.19131675418469), np.float64(2
 Con estas comprobaciones logramos obtener todos los datos y asegurarnos que las clases y métodos funcionan para ahora poder pasar un archivo.txt con todos los datos y así poder desencriptar los datos de forma automatizada.
 
 Mostraremos los datos para corroborar las gráficas
+
+
+## **Gráficas de Comprobación**
+
+### > **Datos Desencriptados**
+
+`Input: `
+
+```bash
+
+#Grafica para los puntos desencriptados únicamente.
+graficar.graficadora(valor_prueba_x, valor_prueba_y)
+
+```
+
+`Output: `
+
+
+![Datos Desencriptados](imagenes\datos_desencriptados_test.png)
+
+### > **Datos Rotados**
+
+`Input: `
+
+```bash
+
+#Grafica para los datos rotados
+graficar.graficadora(valor_prueba_rotados_x, valor_prueba_rotados_y)
+
+```
+
+`Output: `
+
+![Datos Rotados](imagenes\datos_rotados_test.png)
+
+### > **Datos Trasladados**
+
+`Input: `
+
+```bash
+
+#Gráfica para los datos rotados y trasladados
+graficar.graficadora(valor_prueba_transladado_x, valor_prueba_trasladado_y)
+
+```
+
+`Output: `
+
+![Datos Trasladados](imagenes\datos_trasladados_test.png)
+
+
+## > **Desencriptar**
+
+*Como ya comprobamos que las clases y métodos funcionan, ahora les pasaremos un archivo "datos encriptados.txt" el cual tiene todos los datos encriptados. Cada línea tiene 6 datos los cuales corresponderán a nuestras matrices 6x1 y resolveremos línea por línea de nuestro documento.*
+
+*Obtenemos cada valor para nuestros datos:*
+
+```bash
+
+#Desencriptamos todos los valores para (x, y)
+valores_x, valores_y = aplicacion.abrir_document(matriz_codificacion, "/content/drive/MyDrive/Colab Notebooks/datos encriptados.txt", "decifrar")
+
+#Los datos están anidados, así que los aplanamos con la clase Desempaquetar_Array()
+desempaquetar_x, desempaquetar_y = desempaquetador.desempaquetar(valores_x, valores_y)
+
+#Rotamos los datos ahora que están desempaquetados
+valores_rotados_x, valores_rotados_y = rotar.rotar_matriz(desempaquetar_x, desempaquetar_y)
+
+#Trasladamos los datos ya rotados para obtener la última gráfica.
+valores_trasladados_x, valores_trasladados_y = traslacion.trasladar_matriz(valores_rotados_x, valores_rotados_y, 20, 30)
+
+```
+
+*Como ya tenemos todos nuestros valores `Desencriptados`, `Rotados` y `Trasladados` ahora hace uso de nuestra clase `Graficar()` para visualizar los datos.*
+
+
+## > *Graficas - Datos Resueltos!*
+
+### > *Gráfico desencriptado*
+
+`Input: `
+
+```bash
+
+graficar.graficadora(desempaquetar_x, desempaquetar_y)
+
+```
+
+`Output: `
+
+![Datos Desencriptados](imagenes\datos_desencriptados.png)
+
+### > *Gráfico Matriz Rotación*
+
+`Input: `
+
+```bash
+
+graficar.graficadora(valores_rotados_x, valores_rotados_y)
+
+
+```
+
+`Output: `
+
+![Datos Rotados](imagenes\datos_rotados.png)
+
+### > *Gráfico Matriz Rotación y Traslado*
+
+`Input: `
+
+```bash
+
+graficar.graficadora(valores_trasladados_x, valores_trasladados_y)
+
+```
+
+`Output: `
+
+![Datos Trasladados](imagenes\datos_trasladados.png)
+
+## > *Guardar Datos*
+
+*Guardamos los datos ya desencriptaods, rotados y trasladados en nuevos archivos.*
+
+```bash
+
+guardar_datos.save(desempaquetar_x, desempaquetar_y, "datos\valores desencriptados.txt")
+
+guardar_datos.save(valores_rotados_x, valores_rotados_y, "datos\valores rotados.txt")
+
+guardar_datos.save(valores_trasladados_x,valores_trasladados_y,"datos\valores trasladados.txt")
+
+```
+
+
+## 👨‍💻 Autor
+
+<p align="center">
+    Hecho con ☕ (quizá demasiado)!
+    <br>
+    <i><b>Junior Eduardo Garniga Rojas</b></i></a>  👾
+
+</p>
+
+
+<p align="center">
+    <a href="https://github.com/jgarnigar">
+        <img src= "https://img.shields.io/badge/GitHub-jgarnigar-181717?style=for-the-badge&logo=github">
+    </a>
+</p>
