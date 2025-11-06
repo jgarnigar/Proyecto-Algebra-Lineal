@@ -1274,6 +1274,13 @@ guardar_datos.save(valores_trasladados_x,valores_trasladados_y,"datos\valores tr
 
 ```
 
+Para ver los datos `desencriptados` presione <a href="datos\valores desencriptados.txt"> aquí </a>
+
+Para ver los datos `rotados` presione <a href="datos\valores rotados.txt"> aquí </a>
+
+Para ver los datos `trasladados` presione <a href="datos\valores trasladados.txt"> aquí </a>
+
+
 
 ## 👨‍💻 Autor
 
