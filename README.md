@@ -247,9 +247,9 @@ guardar_datos.save(valores_trasladados_x,valores_trasladados_y,"datos/valores tr
 
 ## 📜 Ficha Técnica y Google Colab
 ⚠️
-- Para un mayor detenimiento en el funcionamiento de cada función y explicación matemática, por favor visite la ***[Ficha Técnica](https://github.com/jgarnigar/Proyecto-Algebra-Lineal)***
+- Para un mayor detenimiento en el funcionamiento de cada función y explicación matemática, por favor visite la ***[Ficha Técnica](https://github.com/jgarnigar/Proyecto-Algebra-Lineal/blob/master/FICHA_TECNICA.md)***
 
-- Para una mejor visualización del programa, por favor visite: ***[Google Colab, Proyecto](https://colab.research.google.com/drive/1CkWjWGpspBhHJBozxhsUjfhBi_t5p63E#scrollTo=CQJRhk_49ETw)***
+- Para una mejor visualización del programa, por favor visite: ***[Google Colab, Proyecto](https://colab.research.google.com/drive/1cKwBeifL5Ro5T5JLSaJ-8OLyN0zEn-qH#scrollTo=v18PLz95k-0a)***
 
 
 ## 🗂️ Estructura completa 

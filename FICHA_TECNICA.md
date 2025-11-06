@@ -25,6 +25,97 @@
 
 - Finalmente usaremos matplotlib con el fin de visualizar los datos desencriptados.
 
+
+## 📑 Índice
+
+1. *[Descripción](#-descripción)*
+
+2. *[Instalación y requisitos](#️-instalación-y-requisitos)*
+
+3. *[Objetivo](#-objetivo)*
+
+4. *[Estructura](#️-estructura)*
+
+5. *[Operaciones matemáticas](#-operaciones-matemáticas)*
+
+6. *[Métodos de Numpy](#-métodos-de-numpy)*
+
+7. *[Datos](#-datos)*
+
+8. *[Ecuaciones](#-ecuaciones)*
+
+   - *[Primera ecuación](#1️⃣-primera-ecuación)*
+
+   - *[Segunda ecuación](#2️⃣-segunda-ecuación)*
+
+   - *[Tercera ecuación](#3️⃣-tercera-ecuación)*
+
+   - *[Cuarta ecuación](#4️⃣-cuarta-ecuación)*
+
+   - *[Resultado de las ecuaciones](#-resultado-de-las-ecuaciones)*
+
+9. *[Clases](#️-clases)*
+
+   - *[Librerías](#-librerías)*
+   
+   - *[Cifrado()](#cifrado)*
+
+     - *[Funcionamiento de la clase Cifrado()](#funcionamiento-de-la-clase-cifrado)*
+     
+   - *[Crear_Array()](#crear_array)* 
+
+     - *[Funcionamiento de la clase Crear_Array()](#funcionamiento-de-la-clase-crear_array)*
+
+   - *[Ecuacion()](#ecuacion)*
+
+     - *[Funcionamiento de la clase Ecuacion()](#funcionamiento-de-la-clase-ecuacion)*
+
+   - *[Desempaquetar_Array()](#desempaquetar_array)*
+
+     - *[Funcionamiento de la clase Desempaquetar_Array()](#funcionamiento-de-la-clase-desempaquetar_array)*
+
+   - *[Rotacion()](#rotacion)*
+
+     - *[Funcionamiento de la clase Rotacion()](#funcionamiento-de-la-clase-rotacion)*
+
+   - *[Traslacion()](#traslacion)*
+
+     - *[Funcionamiento de la clase Traslacion()](#funcionamiento-de-la-clase-traslacion)*
+
+   - *[GuardarDatos()](#guardardatos)*
+
+     - *[Funcionamiento de la clase GuardarDatos()](#funcionamiento-de-la-clase-guardardatos)*
+
+   - *[App()](#app)*
+
+     - *[Funcionamiento de la clase App()](#funcionamiento-de-la-clase-app)*
+
+   - *[Graficar()](#graficar)*
+
+     - *[Funcionamiento de la clase Graficar()](#funcionamiento-de-la-clase-graficar)*
+
+10. *[Instancias](#instancias)*
+
+11. *[Comprobación de datos](#comprobación-de-datos)*
+
+    - *[Matriz inversa](#matriz-inversa)*
+
+    - *[Desencriptar datos](#desencriptar-datos)*
+
+12. *[Gráficas - Datos Resueltos!](#-gráficas---datos-resueltos)*
+
+    - *[Gráfico desencriptado](#-gráfico-desencriptado)*
+
+    - *[Gráfico Matriz Rotación](#-gráfico-matriz-rotación)*
+
+    - *[Gráfico Matriz Rotación y Traslado](#-gráfico-matriz-rotación-y-traslado)*
+
+13. *[Guardar Datos](#-guardar-datos)*
+
+14. *[👨‍💻 Autor](#-autor)*
+
+   
+
 ## ⚙️ **Instalación y requisitos.**
 Utilizaremos **Python** 3.10 o superior, **Numpy** y **Matplotlib**. Para asegurarnos que todo funcione, por favor cree un entorno virtual.
 
@@ -1207,9 +1298,9 @@ valores_trasladados_x, valores_trasladados_y = traslacion.trasladar_matriz(valor
 *Como ya tenemos todos nuestros valores `Desencriptados`, `Rotados` y `Trasladados` ahora hace uso de nuestra clase `Graficar()` para visualizar los datos.*
 
 
-## > *Graficas - Datos Resueltos!*
+## > **Graficas - Datos Resueltos!**
 
-### > *Gráfico desencriptado*
+### > **Gráfico desencriptado**
 
 `Input: `
 
@@ -1225,7 +1316,7 @@ graficar.graficadora(desempaquetar_x, desempaquetar_y)
     <img src="imagenes\datos_desencriptados.png">
 </p>
 
-### > *Gráfico Matriz Rotación*
+### > **Gráfico Matriz Rotación**
 
 `Input: `
 
@@ -1243,7 +1334,7 @@ graficar.graficadora(valores_rotados_x, valores_rotados_y)
 </p>
 
 
-### > *Gráfico Matriz Rotación y Traslado*
+### > **Gráfico Matriz Rotación y Traslado**
 
 `Input: `
 
@@ -1273,12 +1364,26 @@ guardar_datos.save(valores_rotados_x, valores_rotados_y, "datos\valores rotados.
 guardar_datos.save(valores_trasladados_x,valores_trasladados_y,"datos\valores trasladados.txt")
 
 ```
+<br>
 
-Para ver los datos `desencriptados` presione <a href="datos\valores desencriptados.txt"> aquí </a>
+*Para ver los datos `desencriptados` presione* <a href="datos\valores desencriptados.txt"> <i> aquí </i> </a>
 
-Para ver los datos `rotados` presione <a href="datos\valores rotados.txt"> aquí </a>
+*Para ver los datos `rotados` presione* <a href="datos\valores rotados.txt"> <i> aquí </i> </a>
 
-Para ver los datos `trasladados` presione <a href="datos\valores trasladados.txt"> aquí </a>
+*Para ver los datos `trasladados` presione* <a href="datos\valores trasladados.txt"> <i> aquí </i> </a>
+
+<br>
+
+## 🧰 Tecnologías usadas
+
+
+| Tecnología |  | Función |
+|-------------|-------|--------------|
+| **Python** | ![Python](https://img.icons8.com/color/48/000000/python.png) | Lenguaje principal |
+| **NumPy** | ![NumPy](https://img.icons8.com/color/48/000000/numpy.png) | Operaciones numéricas |
+| **Matplotlib** | ![Matplotlib](https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg) | Gráficas y visualización |
+
+<br>
 
 
 
