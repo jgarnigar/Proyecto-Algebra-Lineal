@@ -29,3 +29,17 @@ dist/
 *.egg-info/
 *.manifest
 *.spec
+
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.vrb
+*.dvi
+
+latex/

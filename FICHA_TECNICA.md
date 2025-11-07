@@ -28,81 +28,84 @@
 
 ## 📑 Índice
 
-1. *[Descripción](#-descripción)*
+1. 🔍 *[Descripción](#-descripción)*
 
-2. *[Instalación y requisitos](#️-instalación-y-requisitos)*
+2. ⚙️ 🧩 *[Instalación y requisitos](#️-instalación-y-requisitos)*
 
-3. *[Objetivo](#-objetivo)*
+3. 🎯 *[Objetivo](#-objetivo)*
 
-4. *[Estructura](#️-estructura)*
+4. 🗂️ *[Estructura](#️-estructura)*
 
-5. *[Operaciones matemáticas](#-operaciones-matemáticas)*
+5. 🧮 *[Operaciones matemáticas](#-operaciones-matemáticas)*
 
-6. *[Métodos de Numpy](#-métodos-de-numpy)*
+6. 💻 *[Métodos de Numpy](#-métodos-de-numpy)*
 
-7. *[Datos](#-datos)*
+7. 💾 *[Datos](#-datos)*
 
-8. *[Ecuaciones](#-ecuaciones)*
+8. ➗ ✖️ *[Ecuaciones](#-ecuaciones)*
 
-   - *[Primera ecuación](#1️⃣-primera-ecuación)*
+   - 1️⃣ *[Primera ecuación](#1️⃣-primera-ecuación)*
 
-   - *[Segunda ecuación](#2️⃣-segunda-ecuación)*
+   - 2️⃣ *[Segunda ecuación](#2️⃣-segunda-ecuación)*
 
-   - *[Tercera ecuación](#3️⃣-tercera-ecuación)*
+   - 3️⃣ *[Tercera ecuación](#3️⃣-tercera-ecuación)*
 
-   - *[Cuarta ecuación](#4️⃣-cuarta-ecuación)*
+   - 4️⃣ *[Cuarta ecuación](#4️⃣-cuarta-ecuación)*
 
-   - *[Resultado de las ecuaciones](#-resultado-de-las-ecuaciones)*
+   - ✅ *[Resultado de las ecuaciones](#-resultado-de-las-ecuaciones)*
 
-9. *[Clases](#️-clases)*
+9. 💻 *[Clases](#️-clases)*
 
-   - *[Librerías](#-librerías)*
+   - ⌨️ *[Librerías](#-librerías)*
    
-   - *[Cifrado()](#cifrado)*
+   - 🔹 *[Cifrado()](#cifrado)*
 
      - *[Funcionamiento de la clase Cifrado()](#funcionamiento-de-la-clase-cifrado)*
      
-   - *[Crear_Array()](#crear_array)* 
+   - 🔹 *[Crear_Array()](#crear_array)*
 
      - *[Funcionamiento de la clase Crear_Array()](#funcionamiento-de-la-clase-crear_array)*
 
-   - *[Ecuacion()](#ecuacion)*
+   - 🔹 *[Ecuacion()](#ecuacion)*
 
      - *[Funcionamiento de la clase Ecuacion()](#funcionamiento-de-la-clase-ecuacion)*
 
-   - *[Desempaquetar_Array()](#desempaquetar_array)*
+   - 🔹 *[Desempaquetar_Array()](#desempaquetar_array)*
 
      - *[Funcionamiento de la clase Desempaquetar_Array()](#funcionamiento-de-la-clase-desempaquetar_array)*
 
-   - *[Rotacion()](#rotacion)*
+   - 🔹 *[Rotacion()](#rotacion)*
 
      - *[Funcionamiento de la clase Rotacion()](#funcionamiento-de-la-clase-rotacion)*
 
-   - *[Traslacion()](#traslacion)*
+   - 🔹 *[Traslacion()](#traslacion)*
 
      - *[Funcionamiento de la clase Traslacion()](#funcionamiento-de-la-clase-traslacion)*
 
-   - *[GuardarDatos()](#guardardatos)*
+   - 🔹 *[GuardarDatos()](#guardardatos)*
 
      - *[Funcionamiento de la clase GuardarDatos()](#funcionamiento-de-la-clase-guardardatos)*
 
-   - *[App()](#app)*
+   - 🔹 *[App()](#app)*
 
      - *[Funcionamiento de la clase App()](#funcionamiento-de-la-clase-app)*
 
-   - *[Graficar()](#graficar)*
+   - 🔹 *[Graficar()](#graficar)*
 
      - *[Funcionamiento de la clase Graficar()](#funcionamiento-de-la-clase-graficar)*
 
-10. *[Instancias](#instancias)*
+10. ⚙️ *[Instancias](#instancias)*
 
-11. *[Comprobación de datos](#comprobación-de-datos)*
+11. 📈 *[Comprobación de datos](#comprobación-de-datos)*
 
     - *[Matriz inversa](#matriz-inversa)*
+    - *[Desencriptar datos](#desencriptar-datos)*    
+    - *[Rotación](#rotacion-de-datos)*
+    - *[Traslación](#traslacion)*
 
-    - *[Desencriptar datos](#desencriptar-datos)*
+12. 🧠*[Desencriptar datos](#desencriptar-datos)*
 
-12. *[Gráficas - Datos Resueltos!](#-gráficas---datos-resueltos)*
+13. 🖼️✅ *[Gráficas - Datos Resueltos!](#-gráficas---datos-resueltos)*
 
     - *[Gráfico desencriptado](#-gráfico-desencriptado)*
 
@@ -110,9 +113,9 @@
 
     - *[Gráfico Matriz Rotación y Traslado](#-gráfico-matriz-rotación-y-traslado)*
 
-13. *[Guardar Datos](#-guardar-datos)*
+14. 💾 *[Guardar Datos](#-guardar-datos)*
 
-14. *[👨‍💻 Autor](#-autor)*
+15. *[👨‍💻 Autor](#-autor)*
 
    
 
